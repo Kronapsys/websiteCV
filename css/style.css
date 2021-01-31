@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
 
-.a{
-    border: 0.1em solid rgb(30, 255, 0);
-}
-
 html{
     font-size: calc(5px + 1vw);
 }
@@ -26,7 +22,19 @@ body{
     width: 33%;
 }
 
+.cajaCV{
+    width: 33%;
+}
+
 .centro{
+    width: 33%;
+    height: 67.5em;
+    background-color:rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.centroCV{
     width: 33%;
     height: 67.5em;
     background-color:rgba(255, 255, 255, 0);
@@ -75,11 +83,6 @@ body{
     background-size: contain;
     border: 0.1em solid rgb(255, 255, 255);
 }
-
-.btn:hover{
-    
-}  
-
 
 .styleTextoBtn{
     margin-top: 0.25em;
@@ -144,21 +147,21 @@ body{
 }
 
 @media(max-width: 540px){
-    .centro{
+    .centroCV{
         width: 100%;
     }
 }
 
 @media(max-width: 540px){
-    .caja1{
+    .cajaCV{
         width: 0%;
     }
 }
 
 @media(max-width: 540px){
     .card-img-top{
-        width: 33%;
-        height: 12em;
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -169,22 +172,25 @@ body{
         margin-left: 33%;
     }
 }
+
 @media(max-width: 540px){
     .card-title{
-        width: 33%;
+        width: 100%;
     }
 }
+
 @media(max-width: 540px){
     .card-text{
-        width: 33%;
+        width: 100%;
     }
 }
+
 @media(max-width: 540px){
     .btn-primary{
     background-image: url(../img/atras.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.5em;
-    margin-left: 6em;
+    margin-left: 3em;
     }
 }
