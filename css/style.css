@@ -51,6 +51,13 @@ body{
     text-align: justify;
 }
 
+.descripcion{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    color: rgb(228, 225, 225);
+    text-align: justify;
+}
+
 .cuerpo{
     width: 100%;
     height: 18em;
@@ -62,7 +69,7 @@ body{
 .btn{
     height: 3em;
     width: 3em;
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 50%;
     margin: 0.5em;
     background-size: contain;
     border: 0.1em solid rgb(255, 255, 255);
@@ -100,22 +107,37 @@ body{
     background-image: url(../img/portfolio.jpg);
 }
 
-.cv{
-    height: 32.7em;
-    width: 23.7em;
-    display: flex;
-    flex-direction: row;
+.btn-primary{
+    background-image: url(../img/atras.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1.5em;
+    margin-left: 9em;
 }
 
-.foto{
-    height: 7em;
-    width: 5em;
-    background-image: url(../img/foto.jpg);
-   
+.card{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgba(0, 0, 0, 0);
 }
 
-.caja2{
-    height: 1em;
-    width: 18.7em;
+.carousel-control-prev{
+    height: 12em;
+    background: black;
+}
+.carousel-control-next{
+    height: 12em;
+    background: black;  
 }
 
+.card-img-top{
+    width: 100%;
+    height: 12em;
+}
+
+@media (min-width: 375px){
+    body{
+        background-image: url(../img/fondo-reves.jpg);
+        background-size: contain;
+        
+    } 
+}

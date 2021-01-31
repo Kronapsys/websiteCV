@@ -1,28 +1,114 @@
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="card" style="width: 18rem;">
-<img src="img/nintendoSwitch.PNG" class="card-img-top" alt="...">
-<div class="card-body">
-  <h5 class="card-title">Nintendo Switch realizada con CSS</h5>
-  <p class="card-text">Este fue mi primer proyecto. Consistía en realizar una consola con CSS para aprender a maquetar</p>
-  <a href="#" class="btn btn-primary">Atrás</a>
-</div>
-</div>
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1"
+      width="device-width"
+    />
+    <title>Portfolio</title>
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="caja1"></div>
+      <div class="centro" id="descripcion">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="card" style="width: 100%">
+                <img
+                  src="img/nintendoSwitch.PNG"
+                  class="card-img-top"
+                  alt="nintendoSwitch"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Nintendo Switch realizada con CSS</h5>
+                  <p class="card-text">
+                    Este fue mi primer proyecto. Consistía en realizar una
+                    consola con CSS para aprender a maquetar. Puedes verla <a href="https://kronapsys.github.io/videoconsolaCSS/">aquí</a> 
+                  </p>
+                  <a href="#" onclick="location.href='index.html';" class="btn btn-primary"></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="width: 100%">
+                <img
+                  src="img/mainGoogle.PNG"
+                  class="card-img-top"
+                  alt="google"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Página principal de Google</h5>
+                  <p class="card-text" >
+                    Esta página no tiene funcionalidad, ya que la idea era seguir practicando con
+                    CSS y los flexbox. Puedes verla <a href="https://kronapsys.github.io/paginaPrincipalGoogleCSS/">aquí</a> 
+                  </p>
+                  <a href="#" onclick="location.href='index.html';" class="btn btn-primary"></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="card" style="width: 100%">
+                <img
+                  src="img/juegoLucha.jpeg"
+                  class="card-img-top"
+                  alt="juego"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Próximo proyecto</h5>
+                  <p class="card-text" >
+                    Tratará de un juego de lucha con CSS y JS 3vs3 
+                  </p>
+                  <a href="#" onclick="location.href='index.html';" class="btn btn-primary"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </a>
-  </div>
+
+    <!-- Scripts Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
