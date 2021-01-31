@@ -90,7 +90,6 @@ body{
 
 .btnGithub{
     background-image: url(../img/github.png);
-    cursor: pointer;
 }
 
 .btnLinkedin{
@@ -100,3 +99,23 @@ body{
 .btnPortfolio{
     background-image: url(../img/portfolio.jpg);
 }
+
+.cv{
+    height: 32.7em;
+    width: 23.7em;
+    display: flex;
+    flex-direction: row;
+}
+
+.foto{
+    height: 7em;
+    width: 5em;
+    background-image: url(../img/foto.jpg);
+   
+}
+
+.caja2{
+    height: 1em;
+    width: 18.7em;
+}
+
