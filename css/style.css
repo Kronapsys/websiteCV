@@ -68,6 +68,11 @@ body{
     border: 0.1em solid rgb(255, 255, 255);
 }
 
+.btn:hover{
+    
+}
+
+
 .styleTextoBtn{
     margin-top: 0.25em;
     margin-left: 2.5em;
@@ -85,6 +90,7 @@ body{
 
 .btnGithub{
     background-image: url(../img/github.png);
+    cursor: pointer;
 }
 
 .btnLinkedin{
