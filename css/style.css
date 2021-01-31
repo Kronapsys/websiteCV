@@ -1,196 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,700&display=swap");
 
-html{
-    font-size: calc(5px + 1vw);
+html {
+  font-size: calc(5px + 1vw);
 }
 
-body{
-    background-image: url(../img/fondo-reves.jpg);
-    background-size: contain;
+body {
+  background-image: url(../img/fondo-reves.jpg);
+  background-size: contain;
+  overflow: hidden;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.caja1 {
+  width: 33%;
+}
+
+.cajaCV {
+  width: 33%;
+}
+
+.centro {
+  width: 33%;
+  height: 67.5em;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.centroCV {
+  width: 33%;
+  height: 67.5em;
+  background-color: rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+.saludo {
+  width: 100%;
+  height: 17em;
+}
+
+#saludo {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2em;
+  color: rgb(228, 225, 225);
+}
+
+#descripcion {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  color: rgb(228, 225, 225);
+  text-align: justify;
+}
+
+.descripcion {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  color: rgb(228, 225, 225);
+  text-align: justify;
+}
+
+.cuerpo {
+  width: 100%;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  /*padding-top: 1.5em;*/
+}
+
+.btn {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  margin: 0.5em;
+  background-size: contain;
+  border: 0.1em solid rgb(255, 255, 255);
+}
+
+.styleTextoBtn {
+  margin-top: 0.25em;
+  margin-left: 2.5em;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1em;
+  color: rgb(228, 225, 225);
+}
+
+.btnCV {
+  background-image: url(../img/cv.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 6.4em;
+}
+
+.btnGithub {
+  background-image: url(../img/github.png);
+}
+
+.btnLinkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.btnPortfolio {
+  background-image: url(../img/portfolio.jpg);
+}
+
+.btn-primary {
+  background-image: url(../img/atras.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1.5em;
+  margin-left: 9em;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0);
+  border: rgba(0, 0, 0, 0);
+}
+
+.carousel-control-prev {
+  height: 12em;
+  background: black;
+}
+.carousel-control-next {
+  height: 12em;
+  background: black;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 12em;
+}
+
+@media (max-width: 540px) {
+  body {
+    background-image: url(../img/fondo-mvl.jpg);
+    background-size: cover;
     overflow: hidden;
+  }
 }
 
-.main{
+@media (max-width: 540px) {
+  .centroCV {
+    width: 100%;
+  }
+}
+
+@media (max-width: 540px) {
+  .cajaCV {
+    width: 0%;
+  }
+}
+
+@media (max-width: 540px) {
+  .card-img-top {
+    width: 100%;
     height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    
+  }
 }
 
-.caja1{
-    width: 33%;
-}
-
-.cajaCV{
-    width: 33%;
-}
-
-.centro{
-    width: 33%;
-    height: 67.5em;
-    background-color:rgba(255, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-.centroCV{
-    width: 33%;
-    height: 67.5em;
-    background-color:rgba(255, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-}
-
-.saludo{
-    width: 100%;
-    height: 17em;
-}
-
-#saludo{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 2em;
-    color: rgb(228, 225, 225);
-}
-
-#descripcion{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1em;
-    color: rgb(228, 225, 225);
-    text-align: justify;
-}
-
-.descripcion{
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1em;
-    color: rgb(228, 225, 225);
-    text-align: justify;
-}
-
-.cuerpo{
-    width: 100%;
-    height: 18em;
-    display: flex;
-    flex-direction: column;
-    /*padding-top: 1.5em;*/
-}
-
-.btn{
-    height: 3em;
-    width: 3em;
-    border-radius: 50%;
-    margin: 0.5em;
-    background-size: contain;
-    border: 0.1em solid rgb(255, 255, 255);
-}
-
-.styleTextoBtn{
-    margin-top: 0.25em;
-    margin-left: 2.5em;
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 1em;
-    color: rgb(228, 225, 225);
-}
-
-.btnCV{
-    background-image: url(../img/cv.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 6.4em;
-}
-
-.btnGithub{
-    background-image: url(../img/github.png);
-}
-
-.btnLinkedin{
-    background-image: url(../img/linkedin.png);
-}
-
-.btnPortfolio{
-    background-image: url(../img/portfolio.jpg);
-}
-
-.btn-primary{
-    background-image: url(../img/atras.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1.5em;
-    margin-left: 9em;
-}
-
-.card{
+@media (max-width: 540px) {
+  .card {
     background-color: rgba(0, 0, 0, 0);
     border: rgba(0, 0, 0, 0);
+    margin-left: 33%;
+  }
 }
 
-.carousel-control-prev{
-    height: 12em;
-    background: black;
-}
-.carousel-control-next{
-    height: 12em;
-    background: black;  
-}
-
-.card-img-top{
+@media (max-width: 540px) {
+  .card-title {
     width: 100%;
-    height: 12em;
+  }
 }
 
-@media(max-width: 540px){
-    body{
-        background-image: url(../img/fondo-mvl.jpg);   
-        background-size:cover;
-        overflow: hidden;   
-    }
+@media (max-width: 540px) {
+  .card-text {
+    width: 100%;
+  }
 }
 
-@media(max-width: 540px){
-    .centroCV{
-        width: 100%;
-    }
-}
-
-@media(max-width: 540px){
-    .cajaCV{
-        width: 0%;
-    }
-}
-
-@media(max-width: 540px){
-    .card-img-top{
-        width: 100%;
-        height: 100%;
-    }
-}
-
-@media(max-width: 540px){
-    .card{
-        background-color: rgba(0, 0, 0, 0);
-        border: rgba(0, 0, 0, 0);
-        margin-left: 33%;
-    }
-}
-
-@media(max-width: 540px){
-    .card-title{
-        width: 100%;
-    }
-}
-
-@media(max-width: 540px){
-    .card-text{
-        width: 100%;
-    }
-}
-
-@media(max-width: 540px){
-    .btn-primary{
+@media (max-width: 540px) {
+  .btn-primary {
     background-image: url(../img/atras.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1.5em;
     margin-left: 3em;
-    }
+  }
 }

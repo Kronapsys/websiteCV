@@ -1,6 +1,6 @@
 # websiteCV de Roberto Sánchez Moyano 💻
 
-Este proyecto trata de una web básica que será mi CV/ portfolio solo para prácticar un poco con diferentes herramientas y sobretodo que sea RESPONSIVE, puedes echarle un vistazo aquí: https://kronapsys.github.io/websiteCV/ 👀
+Este proyecto trata de una web básica que simula ser mi CV/ portfolio solo para prácticar con diferentes herramientas conocidas en estas 2 semanas y sobretodo que sea RESPONSIVE.
 
 # Tecnologías usadas 🛠️
 - HTML 5
@@ -8,3 +8,6 @@ Este proyecto trata de una web básica que será mi CV/ portfolio solo para prá
 - CSS Layout
 - Bootstrap
 
+# Git Pages 🚀
+Puedes echarle un vistazo aquí: 
+👀 https://kronapsys.github.io/websiteCV/ 
